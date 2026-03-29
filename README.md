@@ -82,6 +82,9 @@ You should be able to check the available modes on your computer by using the fo
 ```bash
 ollama list
 ```
+In this guide you will learn how to setup you Mac computer as a LLM Server and access your models from a Windows machine using OpenCode.
+
+If you encounter any errors or wrong information on this guide create an Issue and I'll take a look at it.
 
 You should see `<YOUR_MODEL>-32k` in the list 
 
@@ -231,6 +234,9 @@ Inside this file enter the following.
 }
 ```
 
+Open OpenCode and you should see the model you have on your Mac as the default model, you can start talking to your model now, remember that in the first message you will have to wait a few more seconds than usual as OpenCode also sends a lot of agent information along the way.
+
+You're ready to go!
 
 ## Considerations for other operating systems
 
