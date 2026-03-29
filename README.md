@@ -5,7 +5,7 @@
 Mac will be the server of the LLMs in this project, and therefore it will be the only place where Ollama will be installed and running
 
 > [!NOTE]
-> In this project I am using Mac as the main OS for the server, but other OS can be used for this make sure you take a look at [[#Considerations for other operating systems]]
+> In this project I am using Mac as the main OS for the server, but other OS can be used for this make sure you take a look at [Considerations for other operating systems](#considerations-for-other-operating-systems)
 > 
 > Note that links and commands will be provided only for Mac on this section
 
@@ -17,7 +17,7 @@ To install Ollama you can head to the website [Ollama Official website](https://
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-After the installation is complete you should be able to open the Ollama application or type `Ollama` on the terminal, after running the command you should see a selection between local models, Claude, Codex, and more.
+After the installation is complete you should be able to open the Ollama application or type `ollama` on the terminal, after running the command you should see a selection between local models, Claude, Codex, and more.
 
 ### Downloading a model
 
