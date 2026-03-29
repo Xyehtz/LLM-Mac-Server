@@ -1,5 +1,23 @@
 # Mac LLM Server setup
 
+In this guide you will learn how to setup you Mac computer as a LLM Server and access your models from a Windows machine using OpenCode.
+
+If you encounter any errors or wrong information on this guide create an Issue and I'll take a look at it.
+
+1. [Set up Ollama on Mac](#set-up-ollama-on-mac)
+	1. [Install Ollama](#install-ollama)
+	2. [Downloading a model](#downloading-a-model)
+	3. [Modifying the context window](#modifying-the-context-window)
+		1. [Modelfile](#modelfile)
+		2. [Modifying an already installed model](#modifying-an-already-installed-model)
+	4. [Starting an Ollama server on startup](#starting-an-ollama-server-on-startup)
+2. [Setup Tailscale on Mac](#setup-tailscale-on-mac)
+	1. [Setup Tailscale on Mac](#setup-tailscale-on-mac)
+	2. [Setup Tailscale on Windows](#setup-tailscale-on-windows)
+3. [Setup OpenCode on Windows](#setup-opencode-on-windows)
+4. [Considerations for other operating systems](#considerations-for-other-operating-systems)
+5. [FAQ](#faq)
+
 ## Set up Ollama on Mac
 
 Mac will be the server of the LLMs in this project, and therefore it will be the only place where Ollama will be installed and running
@@ -185,7 +203,7 @@ Finally, before finishing on Mac, you will have to run the following command to 
 
 This command will show you a link that you need to follow to log in, after you do this Tailscale will run after you log in without the need to authenticate again.
 
-### Install Tailscale on Windows
+### Setup Tailscale on Windows
 
 The installation on Windows is more simple, simply go to the [Tailscale website](https://tailscale.com/download) and install the application, it will also prompt to authenticate, make sure that you use the same account, after this is done you'll be ready to go.
 
